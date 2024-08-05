@@ -8,8 +8,7 @@ public class NMSHelper {
     public static boolean isOlderThanPlayerTrackEntityEvent() {
         if(isOlderThanPlayerTrackEntityEventCache!=null) return isOlderThanPlayerTrackEntityEventCache;
 
-        String packageName = Bukkit.getServer().getClass().getPackage().getName();
-        String version = packageName.substring(packageName.lastIndexOf('.') + 1)
+        String version = NMSManager.getNMSVersion()
                 .substring(3)
                 .replace("_R", ".");
         double numericVersion = Double.parseDouble(version);
