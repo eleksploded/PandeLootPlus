@@ -1,8 +1,6 @@
 package net.seyarada.pandeloot.nms;
 
 import org.bukkit.Bukkit;
-import org.bukkit.ChatColor;
-import org.bukkit.craftbukkit.v1_17_R1.util.CraftMagicNumbers;
 
 import java.util.List;
 import java.util.Map;

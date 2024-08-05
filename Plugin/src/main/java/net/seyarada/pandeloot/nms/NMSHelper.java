@@ -1,7 +1,5 @@
 package net.seyarada.pandeloot.nms;
 
-import org.bukkit.Bukkit;
-
 public class NMSHelper {
 
     static Boolean isOlderThanPlayerTrackEntityEventCache;
