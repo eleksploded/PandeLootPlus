@@ -45,7 +45,7 @@ public final class NMSManager {
             case "1.20", "1.20.1" -> "v1_20_R1";
             case "1.20.2" -> "v1_20_R2";
             case "1.20.3", "1.20.4" -> "v1_20_R3";
-            case "1.21" -> "v1_21_R1";
+            case "1.21", "1.21.1" -> "v1_21_R1";
 
             default -> throw new RuntimeException("Unknown NMS version for MC " + mcVersion);
         };
